@@ -177,8 +177,6 @@ void loop() {
     // --- 4. Serial Output ---
     Serial.println(uid + "," + studentName + "," + gradeSection + "," + attendanceType + "," + remarks + "," + timestamp + "," + timeOnly);
 
-    // --- 5. SMS Logic ---
-
     delay(1500); 
     lcd.clear();
     lcd.print("Ready for Scan");
